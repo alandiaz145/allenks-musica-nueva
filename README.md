@@ -1,7 +1,10 @@
 # ALLEN KS — Música y Sounds
 
-Código de la versión experimental de la web musical de ALLEN KS.
+Sitio experimental del catálogo musical de ALLEN KS.
 
-Vista online: https://allenks-musica-nueva.ninshaarmy.chatgpt.site
+- [Abrir la web publicada](https://allenks-musica-nueva.ninshaarmy.chatgpt.site/)
+- [Estado y decisiones del proyecto](PROJECT_STATUS.md)
 
-El sitio oficial https://allenks.com.ar se mantiene separado.
+El sitio oficial https://allenks.com.ar se mantiene separado y sin cambios.
+
+**Importante:** el sitio publicado en ChatGPT Sites y este repositorio personal son independientes. Las actualizaciones no se publican automáticamente desde GitHub; revisar y sincronizar ambos después de cada cambio.

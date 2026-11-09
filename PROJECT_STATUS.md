@@ -16,7 +16,7 @@ Actualizado: 2026-11-09 (tipografía y secciones)
 
 ## Estado actual
 - La estructura visual del catálogo blanco está publicada en Sites.
-- Actualización tipográfica publicada: Noto Sans Display autoalojada para interfaz; Barlow Condensed display.
+- Actualización tipográfica V2 publicada: Archivo Black autoalojada para títulos de Sample Packs/Academia; Manrope variable autoalojada para interfaz; Barlow Condensed se conserva en el hero musical. Ver `FONT_GUIDE.md`.
 - Sample Packs rediseñado con producto grande, títulos y consulta; Academia con jerarquía, temas y CTA.
 - Ver también `DESIGN_SYSTEM.md` para reglas de diseño aprobadas.
 - Los cuatro temas mostrados son de demostración visual: **no hay MP3 conectados**.

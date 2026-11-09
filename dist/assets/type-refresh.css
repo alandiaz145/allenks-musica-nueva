@@ -1,6 +1,8 @@
 /* Noto Sans Display is shipped with the site so copy and controls stay sharp without a font CDN. */
 @font-face{font-family:'KS Display';src:url('./fonts/KSDisplay-Regular.woff') format('woff');font-style:normal;font-weight:400;font-display:swap}
 @font-face{font-family:'KS Display';src:url('./fonts/KSDisplay-Bold.woff') format('woff');font-style:normal;font-weight:700 900;font-display:swap}
+@font-face{font-family:'KS Archivo Black';src:url('./fonts/ArchivoBlack.woff') format('woff');font-style:normal;font-weight:900;font-display:swap}
+@font-face{font-family:'KS Manrope';src:url('./fonts/ManropeVariable.woff') format('woff');font-style:normal;font-weight:200 800;font-display:swap}
 :root{font-family:'KS Display',Arial,sans-serif}
 body{font-family:'KS Display',Arial,sans-serif}
 nav a,.listen,.filters button,.action,.all,.packs-section,.academy{font-family:'KS Display',Arial,sans-serif}
@@ -42,3 +44,19 @@ nav a,.listen,.action,.all{font-weight:900}
 @media(max-width:1000px){.section-head{align-items:start}.section-desc{max-width:260px}.packs .pack-card{min-height:470px}.packs .pack-card>img{height:230px}.academy-grid{grid-template-columns:1fr;gap:32px}.academy-info{max-width:560px}}
 @media(max-width:700px){.packs-section{padding-top:55px;padding-bottom:62px}.section-head{display:block;margin-bottom:26px}.section-head h2{font-size:clamp(55px,14vw,80px)}.section-desc{margin:28px 0 0;max-width:100%;font-size:15px}.packs{grid-template-columns:1fr;gap:15px}.packs .pack-card{padding:20px;min-height:460px}.packs .pack-card>img{height:255px}.pack-bottom h3{font-size:46px}.academy{padding-top:60px;padding-bottom:65px}.academy h2{font-size:clamp(56px,12.5vw,82px)}.academy-info{padding-left:20px;gap:17px}.academy-info p{font-size:17px}.academy-tags span{font-size:10px}}
 @media(prefers-reduced-motion:reduce){.packs .pack-card>img{transition:none}}
+
+/* Typography direction V2: wider display face + precise, heavyweight interface type. */
+:root,body{font-family:'KS Manrope','KS Display',sans-serif}
+nav a,.listen,.filters button,.action,.all,.packs-section,.academy,.intro,.section-desc,.academy-info,.pack-top,.pack-bottom a{font-family:'KS Manrope',sans-serif}
+nav a,.listen,.action,.all{font-weight:800;letter-spacing:-.02em}
+.eyebrow,.pack-top,.academy-kicker{font-family:'KS Manrope',sans-serif;font-weight:800}
+.extras h2{font-family:'KS Archivo Black',Impact,sans-serif;font-weight:900;letter-spacing:-.065em;line-height:.97}
+.section-head h2{font-size:clamp(59px,5.5vw,84px)}
+.academy h2{font-size:clamp(54px,5.2vw,80px)}
+.pack-bottom h3{font-family:'KS Archivo Black',Impact,sans-serif;font-size:clamp(31px,2.75vw,42px);letter-spacing:-.045em;line-height:.99}
+.section-desc,.academy-info p{font-weight:700;letter-spacing:-.025em}
+.pack-bottom a,.academy-info>a{font-weight:800;letter-spacing:-.01em}
+.filters button{font-weight:800}
+.packs .pack-card{min-height:565px}
+@media(max-width:1000px){.section-head h2{font-size:clamp(52px,6vw,72px)}.academy h2{font-size:clamp(51px,6vw,70px)}}
+@media(max-width:700px){.section-head h2{font-size:clamp(39px,9vw,64px)}.academy h2{font-size:clamp(37px,8.7vw,59px)}.pack-bottom h3{font-size:clamp(31px,8vw,43px)}.packs .pack-card{min-height:470px}}

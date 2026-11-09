@@ -1,0 +1,44 @@
+/* Noto Sans Display is shipped with the site so copy and controls stay sharp without a font CDN. */
+@font-face{font-family:'KS Display';src:url('./fonts/KSDisplay-Regular.woff') format('woff');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'KS Display';src:url('./fonts/KSDisplay-Bold.woff') format('woff');font-style:normal;font-weight:700 900;font-display:swap}
+:root{font-family:'KS Display',Arial,sans-serif}
+body{font-family:'KS Display',Arial,sans-serif}
+nav a,.listen,.filters button,.action,.all,.packs-section,.academy{font-family:'KS Display',Arial,sans-serif}
+nav a,.listen,.action,.all{font-weight:900}
+.eyebrow{font-weight:700}
+.extras h2{font-family:'Barlow Condensed','Arial Narrow',Impact,sans-serif;font-weight:900;letter-spacing:-.026em;line-height:.84}
+.packs-section{padding-top:104px;padding-bottom:115px}
+.section-head{display:flex;justify-content:space-between;gap:50px;align-items:end;margin-bottom:48px}
+.section-head h2{margin-bottom:0;font-size:clamp(70px,7.3vw,112px)}
+.section-desc{max-width:300px;border-left:4px solid #e7f500;padding-left:22px;font-size:17px;line-height:1.45;font-weight:700;margin:0 2% 4px 0}
+.packs{gap:24px}
+.packs .pack-card{position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:stretch;min-height:550px;background:#101013;color:white;padding:25px 30px 28px;gap:0;border:1px solid #29292e}
+.pack-card::before{content:'';position:absolute;inset:auto -25% 12% 10%;height:65%;background:radial-gradient(circle,#6242d53b,transparent 68%);pointer-events:none}
+.pack-card:first-child::before{background:radial-gradient(circle,#ff77182e,transparent 68%)}
+.pack-top{display:flex;align-items:center;justify-content:space-between;font-size:12px;letter-spacing:.15em;font-weight:900;z-index:1}
+.pack-mark{font-size:25px;color:#edff00;letter-spacing:0}
+.pack-mark{font-size:0}
+.pack-mark::after{content:'+';font-family:'KS Display',sans-serif;font-size:26px}
+.packs .pack-card>img{height:310px;width:100%;max-width:100%;object-fit:contain;filter:drop-shadow(0 18px 20px #0009);z-index:1;transition:transform .3s ease}
+.pack-card:hover>img{transform:translateY(-8px) scale(1.04)}
+.pack-bottom{margin-top:auto;display:flex;align-items:end;justify-content:space-between;gap:14px;z-index:1;border-top:1px solid #ffffff38;padding-top:20px}
+.pack-bottom p{font-size:11px;letter-spacing:.25em;color:#b7b7be;font-weight:700;margin:0 0 8px}
+.pack-bottom h3{font-family:'Barlow Condensed',Impact,sans-serif;font-size:clamp(38px,3.2vw,55px);line-height:.88;letter-spacing:-.02em;margin:0;font-weight:900}
+.pack-bottom a{background:#edff00;color:#080808;padding:12px 17px;white-space:nowrap;font-size:12px;font-weight:900;transform:skew(-9deg);display:flex;gap:14px;align-items:center}
+.pack-bottom a span{font-size:21px;line-height:12px}
+.academy{padding:105px 0 115px}
+.academy-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:65px;align-items:end}
+.academy h2{font-size:clamp(63px,6.8vw,104px);margin-bottom:0}
+.academy-info{border-left:4px solid #8170ff;padding-left:28px;display:flex;flex-direction:column;align-items:flex-start;gap:22px}
+.academy-kicker{font-size:13px;font-weight:900;letter-spacing:.17em}
+.academy-info p{font-size:20px;line-height:1.42;max-width:390px;font-weight:700;margin:0}
+.academy-tags{display:flex;flex-wrap:wrap;gap:8px}
+.academy-tags span{border:1.5px solid #111;padding:8px 10px;font-size:11px;font-weight:900;letter-spacing:.05em}
+.academy-info>a{font-family:'KS Display',sans-serif;display:flex;align-items:center;gap:26px;padding:15px 20px;font-size:14px;font-weight:900}
+.academy-info>a span{font-size:22px;line-height:12px}
+.player-controls #prev,.player-controls #next{font-size:0!important}
+.player-controls #prev::after{content:'❮';font-size:22px;color:#fff;font-family:'KS Display',sans-serif}
+.player-controls #next::after{content:'❯';font-size:22px;color:#fff;font-family:'KS Display',sans-serif}
+@media(max-width:1000px){.section-head{align-items:start}.section-desc{max-width:260px}.packs .pack-card{min-height:470px}.packs .pack-card>img{height:230px}.academy-grid{grid-template-columns:1fr;gap:32px}.academy-info{max-width:560px}}
+@media(max-width:700px){.packs-section{padding-top:55px;padding-bottom:62px}.section-head{display:block;margin-bottom:26px}.section-head h2{font-size:clamp(55px,14vw,80px)}.section-desc{margin:28px 0 0;max-width:100%;font-size:15px}.packs{grid-template-columns:1fr;gap:15px}.packs .pack-card{padding:20px;min-height:460px}.packs .pack-card>img{height:255px}.pack-bottom h3{font-size:46px}.academy{padding-top:60px;padding-bottom:65px}.academy h2{font-size:clamp(56px,12.5vw,82px)}.academy-info{padding-left:20px;gap:17px}.academy-info p{font-size:17px}.academy-tags span{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.packs .pack-card>img{transition:none}}

@@ -1,6 +1,6 @@
 # ALLEN KS — Estado del proyecto
 
-Actualizado: 2026-11-09
+Actualizado: 2026-11-09 (tipografía y secciones)
 
 ## Direcciones permanentes
 - Sitio de desarrollo: https://allenks-musica-nueva.ninshaarmy.chatgpt.site/
@@ -16,6 +16,9 @@ Actualizado: 2026-11-09
 
 ## Estado actual
 - La estructura visual del catálogo blanco está publicada en Sites.
+- Actualización tipográfica publicada: Noto Sans Display autoalojada para interfaz; Barlow Condensed display.
+- Sample Packs rediseñado con producto grande, títulos y consulta; Academia con jerarquía, temas y CTA.
+- Ver también `DESIGN_SYSTEM.md` para reglas de diseño aprobadas.
 - Los cuatro temas mostrados son de demostración visual: **no hay MP3 conectados**.
 - Las carátulas se muestran con recortes de una imagen de referencia y deben reemplazarse por originales.
 - El proyecto Sites y este repositorio GitHub son independientes: editar aquí no dispara una publicación automática.
